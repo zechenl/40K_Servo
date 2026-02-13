@@ -1,3 +1,23 @@
+# 40K Servo Monitoring & Logging
+
+**Real‑time monitoring and data logging** for a 40K servo motor’s diode temperature and current using a Prologix controller interface.
+
+## 🔍 Summary
+
+This project connects to a 40K servo system to:
+- Monitor diode temperature and current in real time
+- Log data to CSV for later analysis
+- Provide functions for heater range detection and percentage calculations
+
+It’s implemented in Python with a Jupyter Notebook front end.
+
+## 🧪 Features
+
+- 🔌 Establishes communication with hardware via Prologix controller
+- 📊 Logs and visualizes temperature/current over time
+- 📁 Saves recorded data to structured CSV
+- 🔧 Modular functions to compute key stats from instrument readings
+
 # 40K_Servo
 
 Here I will describe how to run my code to monitor the diode 
